@@ -1,0 +1,11 @@
+
+plugins {
+	id 'org.javamodularity.moduleplugin' version '1.5.0'
+	id 'java-library'
+	id 'application'
+}
+
+mainClassName = 'testJPMS/test.Main'
+
+sourceCompatibility = 11
+targetCompatibility = 11
